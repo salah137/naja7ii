@@ -11,7 +11,7 @@ import { useRouter } from "next/navigation";
 export default function Home() {
         const [email, setEmail] = useState("")
         const [name, setName] = useState("")
-        
+
         const router = useRouter()
         const done =async () => {
                 if( await handleForm(email, name, "student") == "done"){
@@ -45,7 +45,7 @@ export default function Home() {
                                                 setEmail(e.target.value)
                                         }
                                 }></input>
-                                <input type="email" placeholder="votre nome" value={email} onChange={
+                                <input type="text" placeholder="votre nome" value={name} onChange={
                                         (e) => {
                                                 setName(e.target.value)
                                         }

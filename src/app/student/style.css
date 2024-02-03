@@ -80,7 +80,7 @@ h3 {
     border: solid 3px black;
 }
 
-input[type="email"] {
+input[type="email"], input[type="text"]{
     border: solid 3px black;
     outline: none;
     margin: 10px;
