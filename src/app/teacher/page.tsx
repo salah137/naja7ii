@@ -50,7 +50,7 @@ export default function Home() {
                         setEmail(e.target.value)
                     }
                 }></input>
-                <input type="text" placeholder="votre nome" value={email} onChange={
+                <input type="text" placeholder="votre nome" value={name} onChange={
                     (e) => {
                         setName(e.target.value)
                     }
