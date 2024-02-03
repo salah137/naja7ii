@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+@keyframes appare {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: .1;
+    }
+
+    20% {
+        opacity: .2;
+    }
+
+    30% {
+        opacity: .3;
+    }
+
+    40% {
+        opacity: .4;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    60% {
+        opacity: .6;
+    }
+
+    70% {
+        opacity: .7;
+    }
+
+    80% {
+        opacity: .8;
+    }
+
+    90% {
+        opacity: .9;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    animation-name: appare;
+    animation-duration: 1s;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.hero-student {
+    width: 46.71vw;
+    height: 66.58vh;
+    border: solid 3px black;
+
+}
+
+.offre {
+    border: solid 5px black;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Luckiest Guy';
+    padding: 8px;
+}
+
+h3 {
+    margin: 2px;
+}
+
+.letter {
+    border: solid 3px black;
+}
+
+input[type="email"] {
+    border: solid 3px black;
+    outline: none;
+    margin: 10px;
+    padding: 5px;
+    width: 95%;
+    height: 5vh;
+    font-size: 1rem;
+}
+
+button {
+    width: 20vw;
+    height: 10vh;
+    border: solid black 5px;
+    outline: none;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+button:hover {
+    background: rgb(170, 154, 125);
+    cursor: pointer;
+    color: black;
+
+}
+
+@media screen and (max-width: 800px){
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        animation-name: appare;
+        animation-duration: 1s;
+        margin: 10px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    button{
+        width: 40vw;
+    }
+ 
+    .hero-student {
+        height: 30vh;
+        width: 98%;
+    }
+    input[type="email"]{
+        width: 90%;
+    }
+    
+}

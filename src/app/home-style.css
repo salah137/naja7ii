@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  padding: 5px;
+  width: 97vw;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-icon {
+  width: 10vw;
+  height: 10vh;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo>h2 {
+  font-family: 'Luckiest Guy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  margin: 0;
+  color: #000000;
+}
+
+header>button {
+  width: 20vw;
+  height: 10vh;
+  border: none;
+  outline: none;
+  background: #41E164;
+  border-radius: 20px;
+  font-family: 'Luckiest Guy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+
+header>button:hover {
+  cursor: pointer;
+  background: rgb(170, 154, 125);
+}
+
+.hero-icon {
+  width: 46.71vw;
+  height: 66.58vh;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  
+}
+
+.main-content>div>h1 {
+  font-family: 'Luckiest Guy';
+  font-size: 5rem;
+}
+
+.main-content>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding: 5px;
+}
+
+.check-offer {
+  width: 20vw;
+  height: 10vh;
+  border: solid black 5px;
+  outline: none;
+  background: black;
+  color: white;
+  border-radius: 20px;
+  font-family: 'Luckiest Guy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+.check-offer:hover{
+  background: rgb(170, 154, 125);
+  cursor: pointer;
+  color: black;
+}
+
+.main-content {
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    width: 100vw;
+    margin: 5px;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column-reverse;
+    border: solid 5px black;
+    margin: 5px;
+    width: 90%;
+  }
+
+  header>button {
+    width: 45vw;
+    height: 10vh;
+  }
+
+  .main-content>.text>h1 {    
+    font-family: 'Luckiest Guy';
+    font-size: 2.5rem;
+  }
+
+  .check-offer{
+    width: 45vw;
+    height: 10vh;
+  }
+
+  .hero-icon{
+    border: 1px solid black;
+    width: 90%;
+    height: 25vh;
+  }
+  .hero-icon-div{
+    margin: 0;
+    border: solid 5px black;
+    width: 90vw;
+  }
+}
+
+.comments>div>h2,
+.tt {
+  font-family: 'Luckiest Guy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  margin: 0;
+  color: #000000;
+}
+
+.comments-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #6E7A64;
+  margin: 0;
+  padding: 5px;
+  width: 150vw;
+  overflow-y: scroll;
+}
+
+.comments-boxes>div {
+  background-color: #F5F5DC;
+  width: 40vw;
+  margin: 5px;
+  padding: 5px;
+  font-weight: bolder;
+}
+
+.comments-boxes::-webkit-scrollbar {
+  display: none;
+}
+
+.seperator {
+  height: 5vh;
+}
+
